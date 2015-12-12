@@ -1,0 +1,26 @@
+{
+  "name": "ng-anomaly",
+  "version": "0.0.1",
+  "description": "Exception Handler for Angular JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohuk/ng-anomaly.git"
+  },
+  "keywords": [
+    "angularjs"
+  ],
+  "author": "Mohammad Umair Khan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mohuk/ng-anomaly/issues"
+  },
+  "homepage": "https://github.com/mohuk/ng-anomaly#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "ng-annotate": "^1.0.2"
+  }
+}
