@@ -15,17 +15,6 @@
       logUrl = url;
     };
 
-    this.setHeaders = function(headers){
-      if(headers.constructor !== Object){
-        throw Error('headers should be an Object');
-      }
-      else{
-        reqHeaders = angular.extend({
-          'content-type': 'application/json'
-        }, headers);
-      }
-    };
-
     /* ngInject */
     this.$get = function($log, $window, Ajax){
       var ajax = new Ajax();
