@@ -31,6 +31,6 @@ Configuring the above would `HTTP POST` all exceptions to `/logs`, make sure you
 1. `setExceptionLogUrl`: url to POST exceptions to
 
 ## TODO
-- [] Release on bower package manager
-- [] Add headers support
-- [] Write tests
+- [ ] Release on bower package manager
+- [ ] Add headers support
+- [ ] Write tests
