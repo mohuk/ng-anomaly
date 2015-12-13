@@ -2,9 +2,10 @@
   "name": "ng-anomaly",
   "version": "0.0.1",
   "description": "Exception Handler for Angular JS",
-  "main": "index.js",
+  "main": "./dist/ng-anomaly.js",
   "scripts": {
-    "test": "npm test"
+    "test": "mocha tests/*.spec.js --timeout=15000 -R spec",
+    "postinstall": "gulp build min"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,18 @@
   },
   "homepage": "https://github.com/mohuk/ng-anomaly#readme",
   "devDependencies": {
+    "chai": "^3.4.1",
     "gulp": "^3.9.0",
-    "ng-annotate": "^1.0.2"
+    "gulp-concat": "^2.6.0",
+    "gulp-uglify": "^1.5.1",
+    "jsdom": "^7.2.1",
+    "karma": "^0.13.15",
+    "mocha": "^2.3.4",
+    "mocha-jsdom": "^1.0.0",
+    "ng-annotate": "^1.0.2",
+    "angular": "^1.4.8"
+  },
+  "dependencies": {
+    "@fdaciuk/ajax": "0.0.15"
   }
 }
