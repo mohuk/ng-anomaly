@@ -15,6 +15,10 @@
   "keywords": [
     "angularjs"
   ],
+  "files": [
+    "dist/ng-anomaly.js",
+    "dist/ng-anomaly.min.js"
+  ],
   "author": "Mohammad Umair Khan",
   "license": "MIT",
   "bugs": {
