@@ -1,15 +1,16 @@
 var gulp = require('gulp');
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
+var ngAnnotate = require('gulp-ng-annotate');
 
 gulp.task('build', function(){
   return concatFiles('ng-anomaly.js')
     .pipe(gulp.dest('./dist/'));
 });
 
-
 gulp.task('min', function(){
   return concatFiles('ng-anomaly.min.js')
+    .pipe(ngAnnotate())
     .pipe(uglify())
     .pipe(gulp.dest('./dist/'));
 });

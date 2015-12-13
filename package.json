@@ -5,7 +5,7 @@
   "main": "./dist/ng-anomaly.js",
   "scripts": {
     "test": "mocha tests/*.spec.js --timeout=15000 -R spec",
-    "postinstall": "gulp build min"
+    "build": "gulp build min"
   },
   "repository": {
     "type": "git",
@@ -21,16 +21,17 @@
   },
   "homepage": "https://github.com/mohuk/ng-anomaly#readme",
   "devDependencies": {
+    "angular": "^1.4.8",
     "chai": "^3.4.1",
     "gulp": "^3.9.0",
     "gulp-concat": "^2.6.0",
+    "gulp-ng-annotate": "^1.1.0",
     "gulp-uglify": "^1.5.1",
     "jsdom": "^7.2.1",
     "karma": "^0.13.15",
     "mocha": "^2.3.4",
     "mocha-jsdom": "^1.0.0",
-    "ng-annotate": "^1.0.2",
-    "angular": "^1.4.8"
+    "ng-annotate": "^1.0.2"
   },
   "dependencies": {
     "@fdaciuk/ajax": "0.0.15"
