@@ -2,7 +2,8 @@
   "name": "ng-anomaly",
   "version": "0.0.1",
   "description": "Exception Handler for Angular JS",
-  "main": "./dist/ng-anomaly.js",
+  "main": "./dist/ng-anomaly.min.js",
+  "filename": "ng-anomaly.min.js"
   "scripts": {
     "test": "mocha tests/*.spec.js --timeout=15000 -R spec",
     "build": "gulp build min"
