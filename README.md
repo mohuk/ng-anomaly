@@ -8,6 +8,11 @@ Exception handler decorator to post exceptions on the server. Depends on a minim
 $ npm i ng-anomaly
 ```
 
+### Bower
+```bash
+$ bower install ng-anomaly
+```
+
 ## Usage
 ### Adding module in dependencies
 ```javascript
