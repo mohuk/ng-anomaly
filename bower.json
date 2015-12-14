@@ -1,0 +1,29 @@
+{
+  "name": "ng-anomaly",
+  "description": "Exception Handler for Angular JS",
+  "main": "./dist/ng-anomaly.min.js",
+  "authors": [
+    "Mohammad Umair Khan"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "decorator",
+    "exception",
+    "handling"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "homepage": "https://github.com/mohuk/ng-anomaly",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.8",
+    "ajax": "~0.0.15"
+  }
+}
