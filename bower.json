@@ -25,5 +25,6 @@
   "dependencies": {
     "angular": "~1.4.8",
     "ajax": "~0.0.15"
-  }
+  },
+  "version": "0.0.3"
 }
