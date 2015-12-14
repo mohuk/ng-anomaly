@@ -1,6 +1,6 @@
 {
   "name": "ng-anomaly",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Exception Handler for Angular JS",
   "main": "./dist/ng-anomaly.min.js",
   "filename": "ng-anomaly.min.js",
